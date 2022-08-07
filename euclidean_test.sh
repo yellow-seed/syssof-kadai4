@@ -140,7 +140,7 @@ echo "input natural number" > ${ans}
 ./euclidean.sh + - > ${result}
 diff ${ans} ${result} || echo "error in case8-9" >> ${err}
 
-# case: 
+# case: 9
 # description: 引数に16進数が含まれている場合
 echo "input natural number" > ${ans}
 ./euclidean.sh 10 16#AA > ${result}
@@ -178,7 +178,7 @@ echo "input natural number" > ${ans}
 ./euclidean.sh 0XAA 0XAA > ${result}
 diff ${ans} ${result} || echo "error in case9-9" >> ${err}
 
-# case: 
+# case: 10
 # description: 引数に8進数が含まれている場合
 echo "input natural number" > ${ans}
 ./euclidean.sh 10 8#252 > ${result}
@@ -192,7 +192,7 @@ echo "input natural number" > ${ans}
 ./euclidean.sh 8#252 8#252 > ${result}
 diff ${ans} ${result} || echo "error in case10-3" >> ${err}
 
-# case: 
+# case: 11
 # description: 引数に2進数が含まれている場合
 echo "input natural number" > ${ans}
 ./euclidean.sh 10 2#10101010 > ${result}
