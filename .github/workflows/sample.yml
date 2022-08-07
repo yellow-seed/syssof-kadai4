@@ -4,5 +4,6 @@ jobs:
   exec-euclidean:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: execute euclidean_test.sh
         run: sh ./euclidean_test.sh
