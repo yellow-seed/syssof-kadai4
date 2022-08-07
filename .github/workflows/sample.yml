@@ -1,7 +1,8 @@
+on: [push]
 jobs:
   exec-euclidean:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: execute echo command
-        run: sh ./same-test.sh
+      - name: execute euclidean_test.sh
+        run: sh ./euclidean_test.sh
