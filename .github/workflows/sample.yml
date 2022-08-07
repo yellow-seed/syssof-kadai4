@@ -1,0 +1,7 @@
+jobs:
+  exec-euclidean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: execute echo command
+        run: sh ./same-test.sh
